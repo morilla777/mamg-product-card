@@ -10,7 +10,7 @@ const { Provider } = ProductContext;
 
 
 export const ProductCard = ( { children, product, className, style, onChange, value, initialValues }: ProductCardProps ) => {
-    
+    // Cambio por nueva versión
     const { counter, increaseBy, maxCount, isMaxCountReached, reset } = useProduct({ 
       onChange, 
       product,
